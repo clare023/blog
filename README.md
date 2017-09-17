@@ -1,2 +1,2 @@
 # blog
-resume.html
+resume/resume.html
