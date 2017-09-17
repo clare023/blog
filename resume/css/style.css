@@ -52,10 +52,10 @@ body {
 	position: relative;
 	color: #32383E;
 	display: inline-block;
-	max-width: 900px;
 	text-align: center;
 	padding: 15px;
-	font-size: 20px;
+	font-size: 25px;
+	font-weight: 600px;
 }
 
 .navItem:hover {
