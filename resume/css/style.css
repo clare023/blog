@@ -28,6 +28,7 @@ body {
 	height: 14em;
 	background-size: cover;
 	background: url(../img/head.jpg) right bottom no-repeat;
+	animation-duration: 1s;
 }
 
 .fixed-nav {
@@ -182,14 +183,10 @@ body {
 	font-weight: 600;
 	line-height: 250px;
 	width: 20%;
-	animation: text 1.5s forwards;
 	float: left;
 	display: inline-block;
 	height: 250px;
-}
-@keyframes text{
-	from{font-size: 0;opacity: 0;}
-	to{font-size: 20px;opacity: 1;}
+	font-size: 150%;
 }
 .blue {
 	background:rgba(221,243,247,0.8);

@@ -25,7 +25,14 @@ $(function(){
 				btn.removeClass("current");
 				btn.eq(index).addClass("current");
 			}
-		});			
+		});	
+		
+//		var skills = $(".skills");
+//		var education = $(".education");
+//		var bar = $(".progress-bar");
+//		if((doc.scrollTop()>=skills[0].top)&&(doc.scrollTop()<education[0].top)){
+//			bar.animate({color:"#000000"});
+//		}
 	});					
 			btn.on('click', function(e){
   			  	e.preventDefault();
@@ -33,6 +40,6 @@ $(function(){
 			    'scrollTop': $($(this).attr('href')).offset().top
 			  	}, 400);
 				});			
-
+		
 })
 

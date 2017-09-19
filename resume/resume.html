@@ -8,25 +8,18 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" href="css/animate.css" />
 		<!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">-->
-		<script type="text/javascript" src="js/webfont.js"></script>
-		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
-		<script>
-			WebFont.load({
-				google: {
-					families: ["Montserrat:400,700"]
-				}
-			});
-		</script>
+
 	</head>
 
 	<body>
 		<div class="header section" id="header">
-				<div class="headIcon"></div>
-				<div class="headName">
-					<p style="font-size: 50px;text-align: center;margin-top: 50px;color: #04162d;">王科</p>
-					<p style="font-size: 30px;text-align: center;margin-top: 50px;color: #E2E6EA;">Web前端开发工程师</p>
-				</div>
+			<div class="headIcon bounceIn"></div>
+			<div class="headName fadeInLeft" style="animation-duration: 0.5s;">
+				<p style="font-size: 50px;text-align: center;margin-top: 50px;color: #04162d;">王科</p>
+				<p style="font-size: 30px;text-align: center;margin-top: 50px;color: #E2E6EA;">Web前端开发工程师</p>
+			</div>
 		</div>
 
 		<div class="navbar-body">
@@ -76,7 +69,7 @@
 			</div>
 		</div>
 
-		<div class="education section clearfix" id="education">
+		<div class="education section clearfix wow slideInLeft" id="education" data-wow-duration="1s">
 			<h1 style="padding: 30px 0;">EDUCATION</h1>
 			<div class="container">
 				<div class="row">
@@ -104,25 +97,25 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="experience section" id="experience">
 			<h1 style="padding: 20px 0;">EXPRIENCE</h1>
 			<p style="font-size: 18px;color: #262626;font-weight: 600;">Cocos2d-js开发工程师</p>
 			<p>2016&nbsp;Oct&nbsp;-&nbsp;2017&nbsp;Apr</p>
 			<ul class="ex_ul clearfix">
-				<li class="yellow">使用Cocos Creator开发平台</li>
+				<li class="yellow wow flipInX" data-wow-duration = "1s">使用Cocos Creator开发平台</li>
 				<li class="blue">进行棋牌游戏客户端开发</li>
-				<li class="yellow">负责游戏大厅部分UI功能的编程实现</li>
+				<li class="yellow wow flipInX" data-wow-duration = "1s" data-wow-delay = "0.3s">负责游戏大厅部分UI功能的编程实现</li>
 				<li class="blue">JavaScript作为开发语言</li>
-				<li class="yellow">与后台服务器进行实时数据交换</li>
+				<li class="yellow wow flipInX" data-wow-duration = "1s" data-wow-delay = "0.6s">与后台服务器进行实时数据交换</li>
 			</ul>
 			<p style="font-size: 18px;color: #262626;font-weight: 600;">嵌入式软件开发工程师</p>
 			<p>2016&nbsp;Feb&nbsp;-&nbsp;2017&nbsp;Jul</p>
 			<ul class="ex_ul clearfix">
 				<li class="blue">C语言开发</li>
-				<li class="yellow">Emwin图形库</li>
+				<li class="yellow wow flipInX" data-wow-duration = "1s" data-wow-delay = "0.9s">Emwin图形库</li>
 				<li class="blue">Keil开发环境</li>
-				<li class="yellow">基于STM32芯片</li>
+				<li class="yellow wow flipInX" data-wow-duration = "1s" data-wow-delay = "1.2s">基于STM32芯片</li>
 				<li class="blue">汽车仪表界面显示</li>
 			</ul>
 		</div>
@@ -132,9 +125,30 @@
 			<p class="email"><i></i><strong>136592274@qq.com</strong></p>
 		</div>
 
+		<script type="text/javascript" src="js/webfont.js"></script>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
+		<script>
+			WebFont.load({
+				google: {
+					families: ["Montserrat:400,700"]
+				}
+			});
+		</script>
 		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/funcitions.js"></script>
+		<script type="text/javascript" src="js/wow.min.js"></script>
+		<script type="text/javascript">
+			//new WOW().init()  
+			wow = new WOW({
+				boxClass: 'wow', // default 盒子类名  
+				animateClass: 'animated', // default 为animate.css触发css动画的库  
+				offset: 0, // default 偏移量  
+				mobile: true, // default 是否支持手机  
+				live: true // default 检查新元素  
+			})
+			wow.init();
+		</script>
 		<!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>-->
 	</body>
 
