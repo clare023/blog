@@ -8,10 +8,11 @@ body {
 
 .comCenter {
 	margin: 0 auto;
-	max-width: 900px;
+	max-width: 1000px;
 }
 
 .header {
+	text-align: center;
 	padding-top: 30px;
 	background: url(../img/c9f485773912b31b0c6a90a08618367adbb4e1ab.jpg) 50% 50% no-repeat;
 	background-size: cover;
@@ -20,8 +21,8 @@ body {
 }
 
 .headIcon {
-	margin-top: 50px;
-	margin-left: 350px;
+	margin-top: 5%;
+	margin-left: 40%;
 	border: 3px solid #DDF3F7;
 	border-radius: 50%;
 	width: 200px;
