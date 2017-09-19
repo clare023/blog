@@ -173,6 +173,10 @@ body {
 .experience p {
 	padding-top: 10px;
 }
+.experience p{
+	color: #204D74;
+	font-weight: 1000;
+}
 .ex_ul li {
 	color: #555555;
 	font-weight: 600;
