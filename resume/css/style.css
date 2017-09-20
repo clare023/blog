@@ -77,6 +77,9 @@ body {
 	background: url(../img/yuyu.jpg) 95% 50% no-repeat;
 	background-size: 370px;
 }
+.skills .left{
+	text-align: left;
+}
 .bar1,
 .bar2 {
 	width: 90%;
@@ -120,10 +123,10 @@ body {
 }
 
 .ed_ul li {
-	font-size: 20px;
+	font-size: 1.5em;
 	font-weight: 600;
 	color: #111111;
-	margin-bottom: 30px;
+	margin-bottom: 1.5em;
 	font-family: "arial black";
 }
 
@@ -165,7 +168,7 @@ body {
 .experience {
 	text-align: center;
 	background:url(../img/greyTimo.jpg)50% top no-repeat;
-	background-size: 900px;
+	background-size: 75em;
 }
 
 .experience h1,
@@ -179,12 +182,12 @@ body {
 .ex_ul li {
 	color: #555555;
 	font-weight: 600;
-	line-height: 250px;
+	line-height: 15em;
 	width: 20%;
 	float: left;
 	display: inline-block;
-	height: 250px;
-	font-size: 150%;
+	height: 15em;
+	font-size:1.5em;
 }
 .blue {
 	background:rgba(221,243,247,0.8);
@@ -210,17 +213,17 @@ body {
 .phone {
 	position: absolute;
 	left: 32%;
-	top:100px;
+	top:40%;
 }
 .email {
 	position: absolute;
 	left: 65%;
-	top: 100px;
+	top: 40%;
 }
 .phone i {
 	position: absolute;
-	left: -50px;
-	top: -20px;
+	left: -50%;
+	top: -65%;
 	display: inline-block;
 	height: 50px;
 	width: 50px;
@@ -228,8 +231,8 @@ body {
 }
 .email i {
 	position: absolute;
-	left: -55px;
-	top: -10px;
+	left: -40%;
+	top: -50%;
 	display: inline-block;
 	height: 50px;
 	width: 50px;
