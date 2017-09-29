@@ -216,16 +216,67 @@ body {
 .yellow {
 	background:rgba(240,173,78,0.7);
 }
-.fish{
-	padding: 20px;
-	height: 300px;
-	width: 350px;
-	border-radius: 50%;
+.works{
+	text-align: center;
+	    background-color: #2E6DA4;
+	    padding-bottom: 3em;
 }
-.fish:hover{
-	opacity: 0.7;
+.tab{
+    width: 300px;
+    margin: 3em auto;
 }
-	.contact {
+.tab-top li{
+    float: left;
+    margin-right: 20px;
+    border-radius: 3px 3px 0 0;
+    line-height: 40px;
+    text-align: center;
+    width: 3.3em;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    background-color:#337AB7;
+}
+.tab-top li.active{
+    background-color: white;
+    color: #333;
+}
+.tab-main{
+    background-color: white;
+    width: 100%;
+    height: 195px;
+    position: relative;
+}
+.tab-item{
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    position: absolute;
+    background-clip: content-box;
+}
+.tab-item a{
+	width: 100%;
+	height: 195px;
+}
+.tab-item img{
+	width: 100%;
+	height: 185px;
+}
+.tab-item.active{
+    display: block;
+}
+
+.tab-item:nth-child(2){
+    background: #2B542C;
+}
+.tab-item:nth-child(3){
+    background: burlywood;
+}
+.tab-item:nth-child(4){
+    background: royalblue;
+}	
+.contact {
 	background: url(../img/ti.jpg) left 10% no-repeat;
 	background-size: 10em;
 	padding-top: 2em;
